@@ -9,4 +9,4 @@ This paper is currently under review
 This repository contains the code for the classifier implemented in the paper 
 
 ## Block diagram of our proposal 
-<img src='Diagram.png' width='900'>
+<img src='Diagram.png' width='500'>
