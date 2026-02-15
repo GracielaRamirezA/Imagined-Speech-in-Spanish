@@ -12,8 +12,8 @@ This program contains the model configuration, training pipeline, and evaluation
 
 The associated imagined-speech EEG dataset will be made publicly available upon acceptance of the manuscript for publication.
 
-## Block diagram of our proposal 
-<img src='Diagram.png' width='500'>
+## Graphical Abstract
+<img src='GraphicalAbstract.PNG' width='500'>
 
 ## Citation
 If you use this code, please cite:
