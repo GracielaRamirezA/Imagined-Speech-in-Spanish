@@ -20,5 +20,9 @@ If you use this code, please cite:
 
 [Paper citation will be added upon acceptance]
 
-## Status
-Dataset release pending journal acceptance.
+## Dataset 
+Please complete the following form to request access to the EEG dataset.
+
+The information collected will be used only to evaluate the request and keep a record of dataset use for academic and research purposes. 
+https://docs.google.com/forms/d/e/1FAIpQLSecO2j5EIbDxt-x4ZiMzjlltxislXRgFiHGTrfkpTgH6ZPNGQ/viewform?usp=header 
+
