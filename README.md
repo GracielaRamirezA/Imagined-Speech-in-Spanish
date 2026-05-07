@@ -5,6 +5,11 @@ This is a repository for the code used in "Imagined Speech in Spanish: EEG Datas
 ## Dataset 
 The dataset was developed with the participation of the following team members:
 
+Student Participants:
+
+**MI. Luis Raúl Sigala González**, UACH Faculty of Engineering.
+**Alan Hernández Galván**, UACH Faculty of Medicine and Biomedical Sciences.
+
 Principal Investigators:
 
 **Dr. Graciela María de Jesús Ramírez Alonso**, UACH Faculty of Engineering.  
@@ -13,10 +18,6 @@ Principal Investigators:
 **Dr. Juan Alberto Ramírez Quintana**, Instituto Tecnológico de Chihuahua, Tecnológico Nacional de México.  
 **Dr. David Ricardo López Flores**, Instituto Tecnológico de Chihuahua, Tecnológico Nacional de México.  
 
-Student Participants:
-
-**MI. Luis Raúl Sigala González**, UACH Faculty of Engineering.
-**Alan Hernández Galván**, UACH Faculty of Medicine and Biomedical Sciences.
 
 Please complete the following form to request access to the EEG dataset.
 
