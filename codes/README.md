@@ -21,7 +21,7 @@ The raw recordings correspond to the original EEG signals collected during the e
 
 ### 2. Experiment
 
-`Experiment` is the first code that should be executed.
+`experimentov2` is the first code that should be executed.
 
 This script is responsible for:
 
