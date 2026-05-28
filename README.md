@@ -31,9 +31,13 @@ https://docs.google.com/forms/d/e/1FAIpQLSecO2j5EIbDxt-x4ZiMzjlltxislXRgFiHGTrfk
 The Codes folder contains the Python programs used for:
 
 **EEG signal acquisition**.
+
 **Signal preprocessing and segmentation**.
+
 **Implementation of the baseline transformer-based classification model**.
+
 **Ablation study experiments**.
+
 
 ## Citation
 If you use this code, please cite:
