@@ -1,25 +1,14 @@
 # EEG Dataset and Transformer-Based Classification Framework
 
-All the material shared in this repository, including datasets and source code, may be freely used for research and academic purposes provided that the corresponding dataset publication article is properly cited.
+All the material shared in this repository, including datasets and source code, may be freely used for research and academic purposes, provided that the corresponding dataset publication article is properly cited.
 
 ## Repository Structure
 
 This repository contains the complete pipeline used for EEG acquisition, preprocessing, segmentation, classification, and additional signal analysis.
 
-### 1. Dataset Raw
-
-This folder contains the raw EEG recordings acquired directly from the hardware setup before preprocessing.
-
-The acquisition system used was:
-
-* OpenBCI Ultra Cortex Mark IV headset
-* OpenBCI Cyton + Daisy board configuration
-
-The raw recordings correspond to the original EEG signals collected during the experiments.
-
 ---
 
-### 2. Experiment
+### 1. Experiment
 
 `experimentov2` is the first code that should be executed.
 
@@ -34,7 +23,7 @@ The generated files are later used for preprocessing and segmentation.
 
 ---
 
-### 3. Dataset Processed
+### 2. Dataset Processed
 
 This folder contains the processed and segmented EEG recordings generated after preprocessing the raw signals.
 
