@@ -44,8 +44,8 @@ The Codes folder contains the Python programs used for:
 ## Citation
 If you use this code, please cite:
 
-[Paper citation will be added upon acceptance]
-
+Sigala-Gonzalez, L.R., Ramirez-Alonso, G., Ramirez-Quintana, J.A., Martinez-Reyes, F., Lopez-Flores, D.R. (2026). 
+Imagined Speech in Spanish: EEG Dataset Acquisition Protocol and Baseline Classification Results.  IEEE Latin America Transactions, ID: 10609.
 ## License
 
 This repository is intended for academic and research purposes only.
