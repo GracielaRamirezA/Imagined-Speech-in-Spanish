@@ -35,7 +35,7 @@ The recommended workflow is:
 
 1. **EEG Acquisition:** Run `experimentoV2.py` to conduct the experimental protocol and acquire the raw EEG signals using the OpenBCI hardware.
 
-2. **Preprocessing and Segmentation:** Run `Processing_and_Segmentation.py` to filter, preprocess, segment, and organize the acquired EEG signals for classification.
+2. **Preprocessing and Segmentation:** Download the raw EEG dataset from the Google Drive link provided in the table above and place the downloaded dataset files in the same directory as `Processing_and_Segmentation.py`. Then, run `Processing_and_Segmentation.py` to filter, preprocess, segment, and organize the acquired EEG signals for classification.
 
 3. **Baseline Classification:** Run `transformer_hi.py` to train, validate, and test the Transformer-based baseline model using the processed EEG dataset.
 
@@ -53,10 +53,6 @@ The Transformer implementation used as the baseline classifier is based on the f
 
 > I. Gallo and S. Corchs, "Thinking is Like Processing a Sequence of Spatial and Temporal Words," in *2024 International Joint Conference on Neural Networks (IJCNN)*, IEEE, 2024.
 
-Please complete the following form to request access to the EEG dataset.
-
-The information collected will be used only to evaluate the request and keep a record of dataset use for academic and research purposes. 
-https://docs.google.com/forms/d/e/1FAIpQLSecO2j5EIbDxt-x4ZiMzjlltxislXRgFiHGTrfkpTgH6ZPNGQ/viewform?usp=header 
 
 ## Citation
 If you use this code, please cite:
