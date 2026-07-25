@@ -23,9 +23,9 @@ This repository contains the complete pipeline used for EEG acquisition, preproc
 | File / Folder | Purpose | Description |
 |---|---|---|
 | `Audios/` | Experimental stimuli | Contains the audio stimuli used by the graphical user interface (GUI) during the EEG acquisition protocol. |
-| `experimentoV2.py` | EEG acquisition | Controls the EEG acquisition process, communicates with the OpenBCI hardware, manages the experimental protocol, and saves the raw EEG recordings. |
 | `PantallaInicial.ui` | GUI | Qt Designer file defining the initial interface of the EEG acquisition application. |
 | `PantallaSujeto.ui` | GUI | Qt Designer file defining the interface presented to participants during the experimental protocol. |
+| `experimentoV2.py` | EEG acquisition | Controls the EEG acquisition process, communicates with the OpenBCI hardware, manages the experimental protocol, and saves the raw EEG recordings. |
 | `Processing_and_Segmentation.py` | Preprocessing and segmentation | Performs EEG filtering, preprocessing, segmentation, and data organization for the subsequent classification tasks. |
 | `transformer_hi.py` | Baseline classification | Performs training, validation, and testing of the Transformer-based baseline classification model using the processed EEG dataset. |
 | `Ablationstudy.py` | Ablation study | Performs channel ablation experiments to evaluate the contribution of EEG channels to classification performance. |
