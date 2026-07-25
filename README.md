@@ -23,13 +23,13 @@ This repository contains the Python scripts, Jupyter notebooks, GUI files, and a
 | File / Folder | Purpose | Description |
 |---|---|---|
 | `Audios/` | Experimental stimuli | Contains the audio stimuli used by the graphical user interface (GUI) during the EEG acquisition protocol. |
-| `experimentoV2.py` | EEG acquisition | Controls EEG signal acquisition, communication with the OpenBCI hardware, experimental recording sessions, and storage of raw EEG recordings. |
 | `PantallaInicial.ui` | GUI | Defines the initial graphical user interface used by the EEG acquisition application. |
 | `PantallaSujeto.ui` | GUI | Defines the graphical interface presented to participants during the EEG acquisition protocol. |
+| `experimentoV2.py` | EEG acquisition | Controls EEG signal acquisition, communication with the OpenBCI hardware, experimental recording sessions, and storage of raw EEG recordings. |
 | `Processing_and_Segmentation.py` | Preprocessing and segmentation | Performs EEG preprocessing, filtering, segmentation, and data organization for subsequent classification tasks. |
 | `transformer_hi.py` | Baseline classification | Performs training, validation, and testing of the Transformer-based baseline model using the processed EEG dataset. |
 | `Ablationstudy.py` | Ablation study | Performs ablation experiments to evaluate the contribution of different components to classification performance. |
-| `EEG_importance.py` | Channel importance analysis | Performs channel-wise ablation by systematically removing individual EEG channels and measuring the resulting variation in classification accuracy to estimate channel importance. |
+| `EEG_importance.ipynb` | Channel importance analysis | Performs channel-wise ablation by systematically removing individual EEG channels and measuring the resulting variation in classification accuracy to estimate channel importance. |
 | `EEG_Wilcoxon.ipynb` | Statistical analysis | Performs statistical comparisons of the experimental results using the Wilcoxon signed-rank test. |
 | `SPEARMAN_EEG.ipynb` | Statistical analysis | Performs Spearman correlation analysis on the EEG experimental results. |
 
