@@ -1,28 +1,13 @@
 
-# Imagined-Speech-in-Spanish
-This repository contains the code and resources associated with the paper "Imagined Speech in Spanish: EEG Dataset Acquisition Protocol and Baseline Classification Results."
+# Imagined Speech in Spanish: EEG Dataset Acquisition Protocol and Baseline Classification Results.
 
-If you use this code, please cite:
-
-Sigala-Gonzalez, L.R., Ramirez-Alonso, G., Ramirez-Quintana, J.A., Martinez-Reyes, F., Lopez-Flores, D.R. (2026). 
-Imagined Speech in Spanish: EEG Dataset Acquisition Protocol and Baseline Classification Results.  IEEE Latin America Transactions, ID: 10609.
-
-## Dataset 
-The dataset was developed with the participation of the following team members:
-
-Student Participants:
-
-**MI. Luis Raúl Sigala González**, UACH Faculty of Engineering.
-**Alan Hernández Galván**, UACH Faculty of Medicine and Biomedical Sciences.
-
-Principal Investigators:
-
-**Dr. Graciela María de Jesús Ramírez Alonso**, UACH Faculty of Engineering.  
-**Dr. Javier Camarillo Cisneros**, UACH Faculty of Medicine and Biomedical Sciences.  
-**Dr. Abimael Guzmán Pando**, UACH Faculty of Medicine and Biomedical Sciences.  
-**Dr. Juan Alberto Ramírez Quintana**, Instituto Tecnológico de Chihuahua, Tecnológico Nacional de México.  
-**Dr. David Ricardo López Flores**, Instituto Tecnológico de Chihuahua, Tecnológico Nacional de México.  
-
+**Manuscript ID:** IEEE LATAM Submission ID: 10609  
+**Authors:**
+Luis-Raul Sigala-Gonzalez
+Graciela Ramirez-Alonso
+Juan A. Ramirez-Quintana
+Fernando Martinez-Reyes
+David R. Lopez-Flores
 
 Please complete the following form to request access to the EEG dataset.
 
@@ -55,4 +40,18 @@ Imagined Speech in Spanish: EEG Dataset Acquisition Protocol and Baseline Classi
 
 This repository is intended for academic and research purposes only.
 
+## Dataset 
+The dataset was developed with the participation of the following team members:
 
+Student Participants:
+
+**MI. Luis Raúl Sigala González**, UACH Faculty of Engineering.
+**Alan Hernández Galván**, UACH Faculty of Medicine and Biomedical Sciences.
+
+Principal Investigators:
+
+**Dr. Graciela María de Jesús Ramírez Alonso**, UACH Faculty of Engineering.  
+**Dr. Javier Camarillo Cisneros**, UACH Faculty of Medicine and Biomedical Sciences.  
+**Dr. Abimael Guzmán Pando**, UACH Faculty of Medicine and Biomedical Sciences.  
+**Dr. Juan Alberto Ramírez Quintana**, Instituto Tecnológico de Chihuahua, Tecnológico Nacional de México.  
+**Dr. David Ricardo López Flores**, Instituto Tecnológico de Chihuahua, Tecnológico Nacional de México.  
