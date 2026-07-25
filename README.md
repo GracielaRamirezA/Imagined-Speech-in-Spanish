@@ -17,6 +17,7 @@ This repository contains the Python scripts, Jupyter notebooks, GUI files, and a
 
 | File / Folder | Purpose | Description |
 |---|---|---|
+| **Dataset** | EEG dataset | Contains the raw and processed EEG recordings used in the study. Due to its size, the dataset is hosted externally on Google Drive. **[Download dataset] https://drive.google.com/drive/folders/1EhBOtrhZm8Pm5RhiFVje-4-kN4U0ywpR?usp=sharing** |
 | `Audios/` | Experimental stimuli | Contains the audio stimuli used by the graphical user interface (GUI) during the EEG acquisition protocol. |
 | `PantallaInicial.ui` | GUI | Defines the initial graphical user interface used by the EEG acquisition application. |
 | `PantallaSujeto.ui` | GUI | Defines the graphical interface presented to participants during the EEG acquisition protocol. |
