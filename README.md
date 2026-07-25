@@ -2,6 +2,11 @@
 # Imagined-Speech-in-Spanish
 This repository contains the code and resources associated with the paper "Imagined Speech in Spanish: EEG Dataset Acquisition Protocol and Baseline Classification Results."
 
+If you use this code, please cite:
+
+Sigala-Gonzalez, L.R., Ramirez-Alonso, G., Ramirez-Quintana, J.A., Martinez-Reyes, F., Lopez-Flores, D.R. (2026). 
+Imagined Speech in Spanish: EEG Dataset Acquisition Protocol and Baseline Classification Results.  IEEE Latin America Transactions, ID: 10609.
+
 ## Dataset 
 The dataset was developed with the participation of the following team members:
 
