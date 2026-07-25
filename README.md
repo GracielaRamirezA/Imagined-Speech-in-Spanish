@@ -3,7 +3,7 @@
 
 **Manuscript ID:** IEEE LATAM Submission ID: 10609  
 **Authors:**
-Luis-Raul Sigala-Gonzalez<sup>a</sup>, Graciela Ramirez-Alonso<sup>a</sup>, Juan A. Ramirez-Quintana<sup>a</sup>, Fernando Martinez-Reyes<sup>b</sup>, David R. Lopez-Flores<sup>b</sup>  
+Luis-Raul Sigala-Gonzalez<sup>a</sup>, Graciela Ramirez-Alonso<sup>a</sup>, Juan A. Ramirez-Quintana<sup>b</sup>, Fernando Martinez-Reyes<sup>a</sup>, David R. Lopez-Flores<sup>b</sup>  
 
 <sup>a</sup> Universidad Autónoma de Chihuahua, Facultad de Ingeniería, Chihuahua, México  
 <sup>b</sup> Tecnológico Nacional de México/Instituto Tecnológico de Chihuahua, Chihuahua, México
