@@ -34,16 +34,16 @@ This repository contains the Python scripts, Jupyter notebooks, GUI files, and a
 The recommended workflow is:
 
 1. **EEG Acquisition:** Run `experimentoV2.py` to conduct the experimental protocol and acquire the raw EEG signals using the OpenBCI hardware.
-2. 
-3. **Preprocessing and Segmentation:** Download the raw EEG dataset from the Google Drive link provided in the table above and place the `.npz` files in the same directory as `Processing_and_Segmentation.py`. Then, run `Processing_and_Segmentation.py` to preprocess, filter, segment, and organize the EEG recordings for subsequent classification.
 
-4. **Baseline Classification:** Run `transformer_hi.py` to train, validate, and test the Transformer-based baseline model using the processed EEG dataset.
+2. **Preprocessing and Segmentation:** Download the raw EEG dataset from the Google Drive link provided in the table above and place the `.npz` files in the same directory as `Processing_and_Segmentation.py`. Then, run `Processing_and_Segmentation.py` to preprocess, filter, segment, and organize the EEG recordings for subsequent classification.
 
-5. **Ablation Study:** Run `Ablationstudy.py` to perform the ablation experiments reported in the manuscript.
+3. **Baseline Classification:** Run `transformer_hi.py` to train, validate, and test the Transformer-based baseline model using the processed EEG dataset.
 
-6. **Channel Importance Analysis:** Run `EEG_importance.py` to perform the channel-wise ablation analysis and estimate the contribution of individual EEG channels to classification performance.
+4. **Ablation Study:** Run `Ablationstudy.py` to perform the ablation experiments reported in the manuscript.
 
-7. **Statistical Analysis:** Use `EEG_Wilcoxon.ipynb` and `SPEARMAN_EEG.ipynb` to perform the statistical analyses reported in the manuscript.
+5. **Channel Importance Analysis:** Run `EEG_importance.py` to perform the channel-wise ablation analysis and estimate the contribution of individual EEG channels to classification performance.
+
+6. **Statistical Analysis:** Use `EEG_Wilcoxon.ipynb` and `SPEARMAN_EEG.ipynb` to perform the statistical analyses reported in the manuscript.
 
 > **Note:** The required dataset files must be located in the same directory as the corresponding script before execution.
 
