@@ -17,18 +17,21 @@ https://docs.google.com/forms/d/e/1FAIpQLSecO2j5EIbDxt-x4ZiMzjlltxislXRgFiHGTrfk
 <img src='GraphicalAbstract.png' width='1000'>
 
 ## Codes
-The Codes folder contains the Python programs used for:
 
-**EEG signal acquisition**.
+This repository contains the Python scripts, Jupyter notebooks, GUI files, and audio stimuli used for EEG data acquisition, signal processing, baseline classification, ablation experiments, and statistical analysis presented in the manuscript.
 
-**Signal preprocessing and segmentation**.
-
-**Implementation of the baseline transformer-based classification model**.
-
-**Ablation study experiments**.
-
-**Statistical analysis**.
-
+| File / Folder | Purpose | Description |
+|---|---|---|
+| `Audios/` | Experimental stimuli | Contains the audio stimuli used by the graphical user interface (GUI) during the EEG acquisition protocol. |
+| `experimentoV2.py` | EEG acquisition | Implements the experimental procedure used for EEG data acquisition and stimulus presentation. |
+| `PantallaInicial.ui` | GUI | Qt Designer file defining the initial interface of the EEG acquisition application. |
+| `PantallaSujeto.ui` | GUI | Qt Designer file defining the interface presented to the participant during the experimental protocol. |
+| `Processing_and_Segmentation.py` | Signal processing | Performs EEG signal preprocessing and segmentation for subsequent analysis and classification. |
+| `transformer_hi.py` | Baseline classification | Implements the transformer-based baseline model used for imagined-speech EEG classification. |
+| `Ablationstudy.py` | Ablation study | Performs the ablation experiments used to evaluate the contribution of the different components of the classification pipeline. |
+| `EEG_Wilcoxon.ipynb` | Statistical analysis | Performs statistical comparisons using the Wilcoxon signed-rank test. |
+| `SPEARMAN_EEG.ipynb` | Statistical analysis | Performs Spearman correlation analysis on the EEG experimental results. |
+| `signal_quality_review.py` | Signal quality | Evaluates and reviews the quality of the acquired EEG signals. |
 
 ## Citation
 If you use this code, please cite:
