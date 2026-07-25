@@ -8,11 +8,6 @@ Luis-Raul Sigala-Gonzalez<sup>a</sup>, Graciela Ramirez-Alonso<sup>a</sup>, Juan
 <sup>a</sup> Universidad Autónoma de Chihuahua, Facultad de Ingeniería, Chihuahua, México  
 <sup>b</sup> Tecnológico Nacional de México/Instituto Tecnológico de Chihuahua, Chihuahua, México
 
-Please complete the following form to request access to the EEG dataset.
-
-The information collected will be used only to evaluate the request and keep a record of dataset use for academic and research purposes. 
-https://docs.google.com/forms/d/e/1FAIpQLSecO2j5EIbDxt-x4ZiMzjlltxislXRgFiHGTrfkpTgH6ZPNGQ/viewform?usp=header 
-
 ## Graphical Abstract
 <img src='GraphicalAbstract.png' width='1000'>
 
@@ -56,6 +51,12 @@ The recommended workflow is:
 The Transformer implementation used as the baseline classifier is based on the following work:
 
 > I. Gallo and S. Corchs, "Thinking is Like Processing a Sequence of Spatial and Temporal Words," in *2024 International Joint Conference on Neural Networks (IJCNN)*, IEEE, 2024.
+
+Please complete the following form to request access to the EEG dataset.
+
+The information collected will be used only to evaluate the request and keep a record of dataset use for academic and research purposes. 
+https://docs.google.com/forms/d/e/1FAIpQLSecO2j5EIbDxt-x4ZiMzjlltxislXRgFiHGTrfkpTgH6ZPNGQ/viewform?usp=header 
+
 ## Citation
 If you use this code, please cite:
 
