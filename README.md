@@ -18,30 +18,36 @@ https://docs.google.com/forms/d/e/1FAIpQLSecO2j5EIbDxt-x4ZiMzjlltxislXRgFiHGTrfk
 
 ## Codes
 
-This repository contains the complete pipeline used for EEG acquisition, preprocessing, segmentation, baseline classification, ablation experiments, and statistical analysis presented in the manuscript.
+This repository contains the Python scripts, Jupyter notebooks, GUI files, and audio stimuli used for EEG data acquisition, signal processing, baseline classification, ablation experiments, channel importance analysis, and statistical analysis presented in the manuscript.
 
 | File / Folder | Purpose | Description |
 |---|---|---|
 | `Audios/` | Experimental stimuli | Contains the audio stimuli used by the graphical user interface (GUI) during the EEG acquisition protocol. |
-| `PantallaInicial.ui` | GUI | Qt Designer file defining the initial interface of the EEG acquisition application. |
-| `PantallaSujeto.ui` | GUI | Qt Designer file defining the interface presented to participants during the experimental protocol. |
-| `experimentoV2.py` | EEG acquisition | Controls the EEG acquisition process, communicates with the OpenBCI hardware, manages the experimental protocol, and saves the raw EEG recordings. |
-| `Processing_and_Segmentation.py` | Preprocessing and segmentation | Performs EEG filtering, preprocessing, segmentation, and data organization for the subsequent classification tasks. |
-| `transformer_hi.py` | Baseline classification | Performs training, validation, and testing of the Transformer-based baseline classification model using the processed EEG dataset. |
-| `Ablationstudy.py` | Ablation study | Performs channel ablation experiments to evaluate the contribution of EEG channels to classification performance. |
-| `signal_quality_review.py` | Signal quality analysis | Evaluates characteristics of the processed EEG signals and their relationship with classification performance. |
-| `EEG_Wilcoxon.ipynb` | Statistical analysis | Performs statistical comparisons using the Wilcoxon signed-rank test. |
-| `SPEARMAN_EEG.ipynb` | Statistical analysis | Performs Spearman correlation analysis between EEG signal characteristics and classification results. |
+| `experimentoV2.py` | EEG acquisition | Controls EEG signal acquisition, communication with the OpenBCI hardware, experimental recording sessions, and storage of raw EEG recordings. |
+| `PantallaInicial.ui` | GUI | Defines the initial graphical user interface used by the EEG acquisition application. |
+| `PantallaSujeto.ui` | GUI | Defines the graphical interface presented to participants during the EEG acquisition protocol. |
+| `Processing_and_Segmentation.py` | Preprocessing and segmentation | Performs EEG preprocessing, filtering, segmentation, and data organization for subsequent classification tasks. |
+| `transformer_hi.py` | Baseline classification | Performs training, validation, and testing of the Transformer-based baseline model using the processed EEG dataset. |
+| `Ablationstudy.py` | Ablation study | Performs ablation experiments to evaluate the contribution of different components to classification performance. |
+| `EEG_importance.py` | Channel importance analysis | Performs channel-wise ablation by systematically removing individual EEG channels and measuring the resulting variation in classification accuracy to estimate channel importance. |
+| `EEG_Wilcoxon.ipynb` | Statistical analysis | Performs statistical comparisons of the experimental results using the Wilcoxon signed-rank test. |
+| `SPEARMAN_EEG.ipynb` | Statistical analysis | Performs Spearman correlation analysis on the EEG experimental results. |
 
 ### General Workflow
 
-The recommended execution order is:
+The recommended workflow is:
 
-1. Run `experimentoV2.py` to acquire the EEG signals and save the raw recordings.
-2. Run `Processing_and_Segmentation.py` to preprocess, filter, segment, and organize the recorded EEG signals.
-3. Run `transformer_hi.py` to train, validate, and test the Transformer-based baseline classification model.
-4. Run `Ablationstudy.py` and `signal_quality_review.py` for channel ablation and signal quality analyses.
-5. Use `EEG_Wilcoxon.ipynb` and `SPEARMAN_EEG.ipynb` for the statistical analyses reported in the manuscript.
+1. **EEG Acquisition:** Run `experimentoV2.py` to conduct the experimental protocol and acquire the raw EEG signals using the OpenBCI hardware.
+
+2. **Preprocessing and Segmentation:** Run `Processing_and_Segmentation.py` to filter, preprocess, segment, and organize the acquired EEG signals for classification.
+
+3. **Baseline Classification:** Run `transformer_hi.py` to train, validate, and test the Transformer-based baseline model using the processed EEG dataset.
+
+4. **Ablation Study:** Run `Ablationstudy.py` to perform the ablation experiments reported in the manuscript.
+
+5. **Channel Importance Analysis:** Run `EEG_importance.py` to perform the channel-wise ablation analysis and estimate the contribution of individual EEG channels to classification performance.
+
+6. **Statistical Analysis:** Use `EEG_Wilcoxon.ipynb` and `SPEARMAN_EEG.ipynb` to perform the statistical analyses reported in the manuscript.
 
 > **Note:** The required dataset files must be located in the same directory as the corresponding script before execution.
 
