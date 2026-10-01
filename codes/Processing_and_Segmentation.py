@@ -78,9 +78,6 @@ def prepros(datos, window_size=240, target_class="HablaImaginada"):
 
     # Aplicación del filtro notch a 60 Hz
     senal_filtrada = notch_filter(senal_beta, 60, fs)
-    # Normalización de la señal ###########################################
-    scaler_std = StandardScaler()
-    senal_normalized = scaler_std.fit_transform(senal_filtrada.T).T
     
     datos_hi = datos[:, :senal_normalized.shape[1]]
     senal_procesada = np.vstack((senal_normalized, datos_hi[16:, :]))
